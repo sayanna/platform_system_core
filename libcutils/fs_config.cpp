@@ -216,6 +216,8 @@ static const struct fs_path_config android_files[] = {
     // generic defaults
     { 00755, AID_ROOT,      AID_ROOT,      0, "bin/*" },
     { 00640, AID_ROOT,      AID_SHELL,     0, "fstab.*" },
+    { 00755, AID_ROOT,      AID_ROOT,      0, "system/glibc/lib/*" },
+    { 00755, AID_ROOT,      AID_ROOT,      0, "system/glibc/bin/*" },
     { 00750, AID_ROOT,      AID_SHELL,     0, "init*" },
     { 00755, AID_ROOT,      AID_SHELL,     0, "product/bin/*" },
     { 00750, AID_ROOT,      AID_SHELL,     0, "sbin/*" },
